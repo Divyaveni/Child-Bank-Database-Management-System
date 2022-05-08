@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>661</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BALYA BANK</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 201, 60);
+background-color: rgb(254, 209, 87);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>0</y>
+     <width>281</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Logo/logo3.JPG);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>:/Logo/logo3.JPG</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>280</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 22pt &quot;Goudy Old Style&quot;;
+color: rgb(21, 84, 93);</string>
+   </property>
+   <property name="text">
+    <string>Welcome To</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="indent">
+    <number>27</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>320</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 22pt &quot;Goudy Old Style&quot;;
+font: 75 26pt &quot;Goudy Old Style&quot;;
+color: rgb(21, 84, 93);</string>
+   </property>
+   <property name="text">
+    <string>Balya Bank</string>
+   </property>
+   <property name="indent">
+    <number>16</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>410</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(21, 84, 93);
+selection-background-color: rgb(255, 210, 93);
+selection-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+font: bold 18pt &quot;Goudy Old Style&quot;;
+color: rgb(255, 210, 93);
+border-radius: 15px;</string>
+   </property>
+   <property name="text">
+    <string>Child Login</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>410</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(21, 84, 93);
+selection-background-color: rgb(255, 210, 93);
+selection-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+font: bold 18pt &quot;Goudy Old Style&quot;;
+color: rgb(255, 210, 93);
+border-radius: 15px;</string>
+   </property>
+   <property name="text">
+    <string>Parent Login</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>460</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(21, 84, 93);
+font: bold 18pt &quot;Goudy Old Style&quot;;
+color: rgb(255, 210, 93);
+border-radius: 15px;
+border-color: rgb(255, 255, 255);
+selection-color: rgb(0, 0, 0);
+selection-background-color: rgb(255, 210, 93);</string>
+   </property>
+   <property name="text">
+    <string>Create an Account</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Resource/Company_logo.qrc"/>
+  <include location="../Resource/Company_logo_display.qrc"/>
+ </resources>
+ <connections/>
+</ui>

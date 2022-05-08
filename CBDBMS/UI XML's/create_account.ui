@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Create_account</class>
+ <widget class="QMainWindow" name="Create_account">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>727</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(21, 84, 93);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>0</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/assets/logo3_1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>:/assets/logo3_1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="transaction_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font: italic 18pt &quot;Goudy Old Style&quot;;
+background-color: rgb(255, 212, 93);
+color: rgb(21, 82, 93);
+border: 1px solid;
+border-radius: 15px;
+}
+QPushButton:hover {
+background-color:rgb(14, 54, 61);
+color:rgb(255,212,93);
+}</string>
+    </property>
+    <property name="text">
+     <string>Create Account Parent</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="transaction_btn_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>90</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font: italic 18pt &quot;Goudy Old Style&quot;;
+background-color: rgb(255, 212, 93);
+color: rgb(21, 82, 93);
+border: 1px solid;
+border-radius: 15px;
+}
+QPushButton:hover {
+background-color:rgb(14, 54, 61);
+color:rgb(255,212,93);
+}</string>
+    </property>
+    <property name="text">
+     <string>Create Account Child</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>721</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="Home_page">
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>291</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 22pt &quot;Goudy Old Style&quot;;
+color: rgb(255, 212, 93);</string>
+      </property>
+      <property name="text">
+       <string>Welcome To Balya Bank</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Parent_page">
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>80</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>130</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Phone Number</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>170</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Username</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>220</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Password</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>270</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Re-enter Password</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Name_edt">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>70</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="phone_edt">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>120</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="username_edt">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>170</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="pass_edit">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>210</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="repass_edt">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>250</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>221</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 24pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Parent Account</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Submit_btn">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>360</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: italic 18pt &quot;Goudy Old Style&quot;;
+background-color: rgb(255, 212, 93);
+color: rgb(21, 82, 93);
+border: 1px solid;
+border-radius: 15px;
+}
+QPushButton:hover {
+background-color:rgb(14, 54, 61);
+color:rgb(255,212,93);
+}</string>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>310</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Email ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Email_edt">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>290</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Child_page">
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>30</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 24pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Child Account</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>290</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Re-enter Password</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>250</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Password</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>80</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="child_username_edt">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>160</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="child_parent_Acc_edt">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>200</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>170</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Username</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="child_repass_edt">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>280</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="child_Name_edt">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>70</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>130</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Date Of Birth</string>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>120</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="child_submit_btn">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>370</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: italic 18pt &quot;Goudy Old Style&quot;;
+background-color: rgb(255, 212, 93);
+color: rgb(21, 82, 93);
+border: 1px solid;
+border-radius: 15px;
+}
+QPushButton:hover {
+background-color:rgb(14, 54, 61);
+color:rgb(255,212,93);
+}</string>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="child_pass_edt">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>240</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>210</y>
+        <width>221</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Parent Account Number</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>330</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Email Id</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="child_mail_edt">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>320</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="Back_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font: italic 18pt &quot;Goudy Old Style&quot;;
+background-color: rgb(255, 212, 93);
+color: rgb(21, 82, 93);
+border: 1px solid;
+border-radius: 15px;
+}
+QPushButton:hover {
+background-color:rgb(14, 54, 61);
+color:rgb(255,212,93);
+}</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Resource/com_logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
